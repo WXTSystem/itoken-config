@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: itoken-config
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://gitee.com/xt_itoken/itoken-config.git
+          search-paths: /**/respo
+          username: 691947706@qq.com
+          password: wangjin1314
